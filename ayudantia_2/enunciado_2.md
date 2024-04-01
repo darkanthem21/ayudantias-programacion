@@ -8,7 +8,7 @@ La Federación Galáctica ha enviado un equipo de exploradores para investigar d
 
 Se nos entrega un diccionario anidado con los datos de cada explorador
 
-`exploradores = {																
+`exploradores = {
 "E001": {"nombre": "Han Solo", "expediciones": 0, "desafios_completados": 0},
 "E002": {"nombre": "Chewbacca", "expediciones": 0, "desafios_completados": 0},
 "E003": {"nombre": "Leia Organa", "expediciones": 0, "desafios_completados": 0},
