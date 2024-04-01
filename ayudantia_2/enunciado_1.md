@@ -35,5 +35,5 @@ Cada elemento del nuevo diccionario debe tener la forma:
 
 Ejemplo:
 
-![Salida](https://ibb.co/LhDG6bf)
+![Salida](Ejemplo1.png)
 
