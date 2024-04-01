@@ -34,14 +34,6 @@ Cada elemento del nuevo diccionario debe tener la forma:
 ### c) Mostrar los datos de salida de forma estetica usando formateo de strings
 
 Ejemplo:
-`Datos de cada explorador:`
-`ID: E001, Nombre: Han Solo, Monto total: 3100 créditos, Desafíos completados: 4
-ID: E002, Nombre: Chewbacca, Monto total: 1800 créditos, Desafíos completados: 6
-ID: E003, Nombre: Leia Organa, Monto total: 4200 créditos, Desafíos completados: 4
-ID: E004, Nombre: Luke Skywalker, Monto total: 4200 créditos, Desafíos completados: 6`
 
-`Exploraciones por planeta:`
-`Nombre del planeta: Tatooine, Monto total: 4600 créditos, Total de desafíos completados: 8`
-`Nombre del planeta: Coruscant, Monto total: 3900 créditos, Total de desafíos completados: 5`
-`Nombre del planeta: Naboo, Monto total: 2300 créditos, Total de desafíos completados: 4`
-`Nombre del planeta: Endor, Monto total: 2500 créditos, Total de desafíos completados: 3`
+![Salida](https://ibb.co/LhDG6bf)
+
