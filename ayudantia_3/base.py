@@ -1,33 +1,13 @@
 def calcular_ganancias_por_empleado(registro_ventas_diarias: dict, inventario: dict) -> dict:
-    ganancias_por_empleado = {}
-    for ventas in registro_ventas_diarias.values():
-        for venta in ventas:
-            empleado = venta["empleado"]
-            titulo_libro = venta["titulo"]
-            if titulo_libro in inventario:
-                precio_venta = inventario[titulo_libro]["precio"]
-                costo_libro = inventario[titulo_libro]["costo"]
-                ganancia = precio_venta - costo_libro
-                if empleado not in ganancias_por_empleado:
-                    ganancias_por_empleado[empleado] = 0
-                ganancias_por_empleado[empleado] += ganancia
-    return ganancias_por_empleado
+    pass
 
 def calcular_ganancias_por_genero_y_empleado(registro_ventas_diarias: dict, genero_deseado: str, empleado_deseado: str, inventario: dict) -> float:
-    ganancias_por_genero_y_empleado = 0
-    for ventas in registro_ventas_diarias.values():
-        for venta in ventas:
-            empleado = venta["empleado"]
-            titulo_libro = venta["titulo"]
-            if titulo_libro in inventario and genero_deseado in inventario[titulo_libro]["generos"] and empleado == empleado_deseado:
-                precio_venta = inventario[titulo_libro]["precio"]
-                costo_libro = inventario[titulo_libro]["costo"]
-                ganancia = precio_venta - costo_libro
-                ganancias_por_genero_y_empleado += ganancia
-    return ganancias_por_genero_y_empleado
+    pass
 
 def main():
-        # Diccionario de inventario con más libros
+    
+    # Diccionario de inventario con libros
+    # Cada libro tiene un costo, cantidad, precio y géneros
     inventario = {
         "El Hobbit": {"costo": 10000, "cantidad": 20, "precio": 20000, "generos": ["Fantasía", "Aventura"]},
         "1984": {"costo": 8000, "cantidad": 30, "precio": 18000, "generos": ["Ciencia Ficción", "Distopía"]},
@@ -39,7 +19,7 @@ def main():
         "Orgullo y prejuicio": {"costo": 14000, "cantidad": 15, "precio": 28000, "generos": ["Novela Romántica", "Clásicos"]}
     }
 
-    # Registro de ventas con más ventas diarias
+    # Registro de ventas diarias
     registro_ventas_diarias = {
         "2024-04-01": [
             {"titulo": "El Hobbit", "empleado": "Juan"},
@@ -68,11 +48,10 @@ def main():
         ]
     }
 
-    # Ejemplo de uso
+
     ganancias_por_empleado = calcular_ganancias_por_empleado(registro_ventas_diarias, inventario)
     print("Ganancias por empleado:")
-    for empleado, ganancia in ganancias_por_empleado.items():
-        print(f"{empleado}: ${ganancia}")
+    ## Aqui buscar la forma de imprimir el diccionario de ganancias por empleado
 
     genero_deseado = "Fantasía"
     empleado_deseado = "Juan"
