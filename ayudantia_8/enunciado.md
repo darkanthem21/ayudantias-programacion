@@ -2,7 +2,7 @@
 # Encontrar numeros palindromos en un archivo
 El ejercicio se explica de una manera muy simple, se requiere crear cuatro funciones.
 
- - **es_palindromo(numero: str) -> bool** : esta funcion debe clasificar una cadena  y ver si es palindromo o no de manera recursiva (Numero cuyos digitos están dispuestos de tal manera que resulta la misma leída de izquierda a derecha que de derecha a izquierda
+ - **es_palindromo(numero: str) -> bool** : esta funcion debe clasificar una cadena  y ver si es palindromo o no de manera recursiva (numero palindromo = Numero cuyos digitos están dispuestos de tal manera que resulta la misma leída de izquierda a derecha que de derecha a izquierda
  - **leer_numeros(nombre_archivo: str) -> list** : funcion que recibe el nombre de un archivo como string, recorre todas sus lineas y devuelve una lista con todos los numeros a clasificar, usar manejo de excepciones para los casos particulares de los archivos
  - **procesar_numero(numero: str) -> str**: esta funcion toma UNA cadena de texto que representa una linea del archivo 'entradas.txt' y la clasifica. La funcion debe retornar un String dependiendo de cada uno de los siguientes casos. Usa manejo de excepciones en caso de un valor no valido.
 	-  Si la cadena no existe, se la salta.
